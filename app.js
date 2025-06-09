@@ -10,7 +10,7 @@ console.log("Click!");
     if(randomNumber==inputText){
         document.getElementById("imgBox").innerHTML= '<img width="250" src="img/win.gif" alt="">'
         alert("WIN!!")
-        h5Lbl.innerText="Congratulations! YOU WIN.!!!";
+        h5Lbl.innerText="🎉 Congratulations! YOU WIN.!!!";
     }else if(randomNumber<inputText){
             h5Lbl.innerText="Too high! Try again.";
     }else if(randomNumber>inputText){
