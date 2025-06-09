@@ -7,6 +7,11 @@ console.log("Click!");
     let h5Lbl = document.getElementById("h5Lbl");
     let inputText = document.getElementById("txtInput").value;
 
+    if (isNaN(inputText) || inputText < 1 || inputText > 5) {
+        h5Lbl.innerText = "⚠️ Please enter a number between 1 and 5.";
+        return;
+    }
+    
     if(randomNumber==inputText){
         document.getElementById("imgBox").innerHTML= '<img width="250" src="img/win.gif" alt="">'
         alert("WIN!!")
