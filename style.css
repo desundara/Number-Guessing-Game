@@ -3,6 +3,7 @@ body {
     padding: 0;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #f0f8ff;
 }
@@ -12,15 +13,18 @@ button.btn-success{
     font-size: 18px;
     border-radius: 8px;
     background-color: #28a745;
+    transition: background-color 0.3s;
 }
 .heading h2{
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
 }
 section{
     max-width: 500px;
     padding: 20px;
     margin: 40px auto;
     background-color: rgb(155, 186, 186);
+    color: rgb(0, 0, 0);
     width: 90%;
     text-align: center;
     border-radius: 10px;
